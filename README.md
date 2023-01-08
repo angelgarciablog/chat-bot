@@ -1,6 +1,6 @@
 # Chat bot con nltk 
 
-version 0.1
+version 0.1.1
 
 Este es un ejemplo de chat bot usando nltk y Python, los usos que le podemos dar son muy variados
 
@@ -48,7 +48,7 @@ Este comando ejecutará el archivo `bot.py` y iniciará el chat en consola.
 actualmente no se a implementado un mecanismo de entrenamiento en este bot .
 -puedes tokenizar un texto con chat-gpt3 usando el siguiente mensaje.
 
-`Crea una tubla de pares para nltk usando la siguiente información: ........`
+`Crea una lista de pares para nltk usando la siguiente información: ........`
 es importante revisar que los token generados por chat-gpt3. en algunas ocasiones hace falta algunos caracteres como llaves o comas.
 
 -agrega tus pairs generados por chat-gpt3 en el archivo `pairs.py`
