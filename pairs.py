@@ -1,8 +1,9 @@
 import re
 
 basicos = [
-    ['^(Hola|Hola|Buenos días|Buenas tardes|Buenas noches)$', ['Hola, ¿cómo estás?', 'Hola, ¿qué tal estás?', 'Buenos días, ¿cómo estás?']],
+    [r'^(Hola|Hola|Buenos días|Buenas tardes|Buenas noches)$', ['Hola, ¿cómo estás?', 'Hola, ¿qué tal estás?', 'Buenos días, ¿cómo estás?']],
     [r'^soy (.*)$', ['Hola, mucho gusto ', 'Hola ', 'Buenos días, ¿cómo estás %1 ?']],
+    [r'(bien|muy bien|super)$',['me alegra, en que te puedo ayudar','me alegra']],
     [r'^(¿Cómo estás\?|¿Qué tal estás\?)$', ['Estoy bien, ¿y tú?', 'Estoy bien, gracias por preguntar.']],
     [r'^(¿De dónde eres\?|¿De dónde eres\?|¿De dónde eres originario\?)$', ['Soy de Nicaragua.', 'Soy originario de Nicaragua.']],
     [r'^(¿Cuántos años tienes\?|¿Cuántos años tienes\?|¿Cuál es tu edad\?)$', ['Tengo 22 años.', 'Tengo 22 años de edad.']],
