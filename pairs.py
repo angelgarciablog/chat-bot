@@ -46,4 +46,4 @@ reflections_es = {
   'Yo': 'Tú',
   'yo': 'tú'
 }
-reflections_es = reflections_es | abreviaturas
+reflections_es
